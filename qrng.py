@@ -43,7 +43,7 @@ def generate_random_numbers(token, num_shots=1024):
     return probabilities
 
 def main():
-    token = "67a9c3e0ccb8fceccd0aaeda0a45d1361807ac7edf6e8c676e12adb3ade24bd08281922b530a0e5a43273ca2ab8be94e08961c0c0acc23528f211e2076e1842f"
+    token = "YOUR_IBM_TOKEN"
     
     # Delete the existing random_numbers.json file if it exists
     if os.path.exists('random_numbers.json'):
